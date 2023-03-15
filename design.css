@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fffff8;
+}
+
+
+
+
+#logo {
+
+    width: 5%;
+    height: auto;
+    margin-left: 5%;
+    display: block;
+
+}
+
+#name {
+    margin-left: 5%;
+    font-size: 20px;
+    width: 20%;
+    display: block;
+
+}
+
+
+img {
+    height: 170px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    ;
+}
+
+h5 {
+    font-size: 30px;
+    margin-left: 0;
+}
+
+#course1 {
+    width: 40%;
+    display: block;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-right: 5%;
+    height: 415px;
+}
+
+#course1:hover {
+    box-shadow: 15px 0px 10px -16px rgba(202, 203, 180, 0.6);
+}
+
+#course2 {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 40%;
+    display: block;
+    float: right;
+    margin-right: 5%;
+    height: 415px;
+
+}
+
+#course2:hover {
+    box-shadow: 15px 0px 10px -16px rgba(202, 203, 180, 0.6);
+}
+
+#course3 {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 40%;
+    display: block;
+    float: left;
+    margin-right: 5%;
+    height: 415px;
+}
+
+#course3:hover {
+    box-shadow: 15px 0px 10px -16px rgba(202, 203, 180, 0.6);
+}
+
+#course4 {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 40%;
+    display: block;
+    float: right;
+    margin-right: 5%;
+    height: 415px;
+}
+
+#course4:hover {
+    box-shadow: 15px 0px 10px -16px rgba(202, 203, 180, 0.6);
+}
+
+#course5 {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 40%;
+    display: block;
+    float: left;
+    margin-right: 5%;
+    height: 415px;
+}
+
+#course5:hover {
+    box-shadow: 15px 0px 10px -16px rgba(202, 203, 180, 0.6);
+}
+
+
+
+#course6 {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 40%;
+    display: block;
+    float: right;
+    margin-right: 5%;
+    height: 415px;
+}
+
+#course6:hover {
+    box-shadow: 15px 0px 10px -16px rgba(202, 203, 180, 0.6);
+}
+
+
+
+#course7 {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 40%;
+    display: block;
+    float: left;
+    margin-right: 5%;
+    height: 415px;
+}
+
+#course7:hover {
+    box-shadow: 15px 0px 10px -16px rgba(202, 203, 180, 0.6);
+}
+
+
+
+#course8 {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 40%;
+    display: block;
+    float: right;
+    margin-right: 5%;
+    height: 415px;
+}
+
+#course8:hover {
+    box-shadow: 15px 0px 10px -16px rgba(202, 203, 180, 0.6);
+}
+
+
+#course9 {
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 40%;
+    height: 300px;
+    display: block;
+    float: left;
+    margin-bottom: 20%;
+    height: 415px;
+}
+
+#course9:hover {
+    box-shadow: 15px 0px 10px -16px rgba(202, 203, 180, 0.6);
+}
+
+
+
+#course10 {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 40%;
+    height: 300px;
+    display: block;
+    float: right;
+    margin-bottom: 20%;
+    margin-right: 5%;
+    height: 415px;
+}
+
+#course10:hover {
+    box-shadow: 15px 0px 10px -16px rgba(202, 203, 180, 0.6);
+}
+
+
+
+.checked {
+    color: orange;
+}
+
+
+#stars {
+    margin-top: 30px;
+    float: right;
+}
+
+#num-lessons {
+    float: left;
+    margin-top: 30px;
+}
+
+#video {
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+#page-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#lesson-name {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FAEBD7;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: inherit;
+    display: block;
+    color: black;
+}
+
+
+
+/* Style page content */
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+a {
+    color: black;
+}
+
+.pagination {
+    display: inline-block;
+    margin-left: 33%;
+    margin-bottom: 5%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+.pagination a:hover {
+    background-color: #ddd;
+}
